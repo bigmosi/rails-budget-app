@@ -13,3 +13,21 @@
  *= require_tree .
  *= require_self
  */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --main-color: #3778c2;
+    --secondary-color: #5fb523;
+    --text-color: #434b54;
+}
+
+@font-face {
+    font-family: 'Montserrat', sans-serif;
+    src: url('Proxima-Nova.otf');
+}
+  
