@@ -2,7 +2,7 @@ require 'rails_helper'
 
 RSpec.describe User, type: :model do
   before(:all) do
-    @user = User.new(name: 'Amos', email: 'kinyeramo@gmail.com', password: '125346')
+    @user = User.new(name: 'Amos', email: 'kinyeramo432@gmail.com', password: '125346')
   end
 
   describe 'Validations' do
