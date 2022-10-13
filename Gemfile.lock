@@ -276,7 +276,10 @@ DEPENDENCIES
   puma (~> 5.0)
   rails (~> 7.0.3, >= 7.0.3.1)
   rails-controller-testing
+<<<<<<< HEAD
   rails_12factor (= 0.0.2)
+=======
+>>>>>>> 31a4e7db80e495fca33fd55096457cff30ad7e87
   rspec-rails
   rubocop (>= 1.0, < 2.0)
   selenium-webdriver

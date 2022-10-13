@@ -1,24 +1,73 @@
-# README
+# Rails Budget App
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+The Ruby on Rails capstone project is to build a mobile web application where I can manage my budget: I have a list of transactions associated with a category, so that I can see how much money I spent and on what.
 
-Things you may want to cover:
+I will create a Ruby on Rails application that allows the user to:
 
-* Ruby version
+    - register and log in, so that the data is private to them.
+    - introduce new transactions associated with a category.
+    - see the money spent on each category.
 
-* System dependencies
+## Built With
 
-* Configuration
+- Ruby
+- Ruby On Rails
+- RSpec
+- PostgreSQL
 
-* Database creation
+## Getting Started
 
-* Database initialization
+To get a local copy up and running follow these simple example steps.
 
-* How to run the test suite
+### Prerequisites
 
-* Services (job queues, cache servers, search engines, etc.)
+- A source-code editor (preferably Visual Studio Code)
 
-* Deployment instructions
+### Install
 
-* ...
+- Ruby
+- Rails
+- PostgreSQL
+
+### Using it Locally
+
+- Clone the project
+
+git clone https://github.com/bigmosi/rails-budget-app.git
+
+cd rails-buget-app
+
+- To Start the programs
+
+open terminal
+run the command $irb (interactive ruby shell)
+run the program functions
+
+
+## Authors
+
+👤 **Ranjit Luwang**
+
+- GitHub: [@kinyera Amos](https://github.com/aboongm)
+- Twitter: [@kinyera](https://twitter.com/kinyera_amos)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/kinyera-amos)
+
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](../../issues/).
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+## Acknowledgments
+
+- Microverse 
+- Inspired by Original design idea by [Gregoire Vella](https://www.behance.net/gregoirevella) on Behance
+
+## 📝 License
+
+This project is [MIT](./LICENSE) licensed.
