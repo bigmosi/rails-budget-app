@@ -43,7 +43,7 @@ open terminal
 run the command $irb (interactive ruby shell)
 run the program functions
 
-- Heroku: [@heroku](https://rails-budget-app.herokuapp.com/)
+- Heroku: [heroku](https://rails-budget-app.herokuapp.com/)
 
 
 ## Authors
