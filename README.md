@@ -43,10 +43,12 @@ open terminal
 run the command $irb (interactive ruby shell)
 run the program functions
 
+- Heroku: [@heroku](https://rails-budget-app.herokuapp.com/)
+
 
 ## Authors
 
-👤 **Ranjit Luwang**
+👤 **Kinyera Amos**
 
 - GitHub: [@kinyera Amos](https://github.com/aboongm)
 - Twitter: [@kinyera](https://twitter.com/kinyera_amos)
