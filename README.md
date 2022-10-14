@@ -44,7 +44,7 @@ run the command $irb (interactive ruby shell)
 run the program functions
 
 - Heroku: [heroku](https://rails-budget-app.herokuapp.com/)
-- Video: [video] (https://www.loom.com/share/d688ad7a14d24de1be3cc492e3d76e2f)
+- Video: [video] (https://www.loom.com/share/b0a7ea06b6054bd58d65cf05d8a4e244)
 
 
 ## Authors
