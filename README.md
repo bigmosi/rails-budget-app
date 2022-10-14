@@ -43,7 +43,7 @@ open terminal
 run the command $irb (interactive ruby shell)
 run the program functions
 
-- Heroku: [heroku](https://rails-budget-app.herokuapp.com/)
+- Heroku: [heroku](https://mighty-earth-23347.herokuapp.com/)
 - Video: [video] (https://www.loom.com/share/b0a7ea06b6054bd58d65cf05d8a4e244)
 
 
