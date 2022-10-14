@@ -46,7 +46,6 @@ run the program functions
 - Heroku: [heroku](https://rails-budget-app.herokuapp.com/)
 - Video: [video] (https://www.loom.com/share/b0a7ea06b6054bd58d65cf05d8a4e244)
 
-
 ## Authors
 
 👤 **Kinyera Amos**
