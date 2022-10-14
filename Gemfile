@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
-ruby '2.7.0'
+ruby '3.1.2'
 gem 'bootsnap', require: false
 gem 'cancancan'
 gem 'devise'
@@ -75,8 +75,4 @@ group :test do
   gem 'capybara'
   gem 'selenium-webdriver'
   gem 'webdrivers'
-end
-
-group :production do
-  gem 'rails_12factor', '0.0.2'
 end

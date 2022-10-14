@@ -4,7 +4,11 @@
         <div>
             <%= render "shared/navbar" %>
         </div>
-        <h4 class="text-white"><%= link_to "Add a category", new_category_path, class: "text-white" %></h4>
+        <div>
+          <% if user_signed_in? %>
+             <%= link_to "Logout", destroy_user_session_path, data: { turbo_method: :delete }, class: "btn main-color" %>
+          <% end %>
+        </div>
     </div>
 
 
@@ -23,9 +27,8 @@
     </div>
 
     <div class="footer fixed-bottom py-4">
-        <% if user_signed_in? %>
-           <%= link_to "Logout", destroy_user_session_path, data: { turbo_method: :delete }, class: "btn main-color" %>
-        <% end %>
+    <h4 class="text-white"><%= link_to "Add a category", new_category_path, class: "text-whites" %></h4>
+
     </div>
 
 </section>

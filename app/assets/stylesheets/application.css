@@ -119,3 +119,7 @@ footer {
   display: grid;
   grid-template-columns: 1fr 11fr;
 }
+
+.text-whites {
+  color: #000;
+}
