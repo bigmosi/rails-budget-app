@@ -1,0 +1,18 @@
+services:
+  - name: web
+    buildCommand: ./render-build.sh
+    startCommand: bundle exec rails server -p $PORT
+    healthCheckPath: /health_check
+    environment:
+      RAILS_ENV: production
+    env:
+      - key: SECRET_KEY_BASE
+        generate: true
+
+  - name: database
+    image: postgres:13
+    plan: starter
+    config:
+      POSTGRES_DB: budget_app
+      POSTGRES_USER: amos
+      POSTGRES_PASSWORD: your_password_here
