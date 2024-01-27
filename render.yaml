@@ -15,4 +15,4 @@ services:
           name: mySite
           property: connectingString
       - key: RAILS_MASTER_KEY
-    sync: false
+    syncfs: false
