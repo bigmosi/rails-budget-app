@@ -16,3 +16,5 @@ services:
           property: connectionString
       - key: RAILS_MASTER_KEY
         value: your_rails_master_key_here
+    publishDirectory: ./public
+
