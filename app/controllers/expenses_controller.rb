@@ -1,7 +1,7 @@
 class ExpensesController < ApplicationController
   def new
     @expense = Expense.new
-    @categories = Category.all.where(user_id: current_user.id)
+    @categories = Category.all.where(user_id: current_user.id).presence || []
   end
 
   def create
